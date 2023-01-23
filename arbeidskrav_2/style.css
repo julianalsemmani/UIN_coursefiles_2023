@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 70%;
+    margin: 2rem auto;
+}
+
+.links .active {
+    background: aqua;
+    transition: 0.3s ease;
+}
+
+.content-border {
+    background-color: aqua;
+    padding: 3px;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+h1 {
+    color: rgba(105, 105, 105, 0.8);
+    border: 1px solid rgba(105, 105, 105, 0.5);
+    padding: 2rem 2rem;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+}
+
+.links li {
+    padding: 1rem 1rem;
+    border: 1px solid rgba(105, 105, 105, 0.2);
+    margin-right: 0.5rem;
+    background: rgba(105, 105, 105, 0.1);
+}
+
+.links li a {
+    text-decoration: none;
+    color: rgba(105, 105, 105, 1);
+    font-size: 1.3rem;
+}
+
+.class-content {
+    border: 1px solid rgba(105, 105, 105, 0.2);
+    padding: 2rem 2rem;
+}
